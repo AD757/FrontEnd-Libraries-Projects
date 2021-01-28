@@ -7,7 +7,7 @@ These projects are made for the freeCodeCamp FrontEnd Libraries Certification.
 ## Frontend Libraries Projects
 Projects completed 
 
-- Random Quote Machine: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine)
+- Random Quote Machine: [Live Preview](https://codepen.io/pen/?template=QWGLRmq) | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine)
 
 - Markdown Previewer: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer)
 
