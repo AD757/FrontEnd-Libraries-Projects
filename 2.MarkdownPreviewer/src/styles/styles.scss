@@ -1,0 +1,113 @@
+$bodyBackground: #fff;
+$titleBackground: #007AFF;
+$secondaryBackground: #fff;
+$codeBackground: #fefefe;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    background: $bodyBackground;
+    font-family: 'Montserrat', sans-serif;
+
+    .markdown-previewer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+
+        .editor,
+        .preview {
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            height: 95vh;
+            border: 3px solid black;
+        }
+
+        .title {
+            border-bottom: 1px solid black;
+            padding: 5px;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            background: $titleBackground;
+        }
+
+        #editor,
+        #preview {
+            background: $secondaryBackground;
+            padding: 15px;
+            height: 100%;
+        }
+
+        #editor {
+            resize: none;
+            outline: none;
+            padding: 10px;
+        }
+
+        #preview {
+            overflow-wrap: break-word;
+            overflow-y: auto;
+
+            & > h1, h2, p {
+                padding: 10px;
+            }
+
+            pre {
+                overflow-x: auto;
+                background: $codeBackground;
+                padding: 5px;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            blockquote {
+                border-left: 3px solid black;
+                padding-left: 5px;
+                margin-left: 25px;
+            }
+
+            code {
+                background: $codeBackground;
+                padding: 2px 4px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+            h1 {
+                border-bottom: 2px solid black;
+            }
+
+            h2 {
+                border-bottom: 1px solid black;
+            }
+        }
+
+        @media (max-width: 800px) {
+            flex-direction: column;
+            justify-content: space-between;
+
+            .editor,
+            .preview {
+                width: 90%;
+            }
+
+            .preview {
+                margin-top: 15px;
+            }
+        }
+    }
+}
