@@ -1,0 +1,76 @@
+$bodyBackground: #F8F2E7;
+$drumPadBackground: #CECECE;
+$drumPadActive: #AFAFAF;
+$drumMachineBackground: #282828;
+$displayBackground: #E5B672;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    background: $bodyBackground;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        #drum-machine {
+            width: 320px;
+            border: 4px solid black;
+            border-radius: 5px;
+            background: $drumMachineBackground;
+
+            #display {
+                min-height: 50px;
+                background: $displayBackground;
+                padding: 10px;
+                font-weight: bold;
+                font-size: 24px;
+                border-bottom: 2px solid black;
+            }
+
+            .drum-buttons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+
+                .drum-pad {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 90px;
+                    height: 90px;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    background: $drumPadBackground;
+                    margin: 10px 0;
+                    cursor: pointer;
+                    font-weight: 900;
+
+                    &:hover {
+                        border: 2px solid black;
+                    }
+                }
+
+                .active {
+                    background: $drumPadActive;
+                    border: 2px solid black;
+                    color: white;
+                }
+            }
+        }
+    }
+}
