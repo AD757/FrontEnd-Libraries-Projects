@@ -9,9 +9,9 @@ Projects completed
 
 - Random Quote Machine: [Live Preview](https://codepen.io/pen/?template=QWGLRmq) | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine)
 
-- Markdown Previewer: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer)
+- Markdown Previewer: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer) 
 
-- Drum Machine: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine)
+- Drum Machine: [Live Preview](http://drummachine-ad.surge.sh/) | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine)
 
 - JavaScript Calculator: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator)
 
