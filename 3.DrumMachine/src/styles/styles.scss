@@ -1,8 +1,8 @@
-$bodyBackground: #F8F2E7;
-$drumPadBackground: #CECECE;
-$drumPadActive: #AFAFAF;
+$bodyBackground: #fff;
+$drumPadBackground: #eee;
+$drumPadActive: #fff;
 $drumMachineBackground: #282828;
-$displayBackground: #E5B672;
+$displayBackground: #FFFF00;
 
 html {
     box-sizing: border-box;
@@ -27,8 +27,8 @@ body {
         height: 100vh;
 
         #drum-machine {
-            width: 320px;
-            border: 4px solid black;
+            width: 350px;
+            border: 5px solid #000;
             border-radius: 5px;
             background: $drumMachineBackground;
 
@@ -37,8 +37,8 @@ body {
                 background: $displayBackground;
                 padding: 10px;
                 font-weight: bold;
-                font-size: 24px;
-                border-bottom: 2px solid black;
+                font-size: 30px;
+                border-bottom: 2px solid #000;
             }
 
             .drum-buttons {
@@ -51,9 +51,9 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 90px;
-                    height: 90px;
-                    border: 1px solid black;
+                    width: 95px;
+                    height: 95px;
+                    border: 1px solid #000;
                     border-radius: 5px;
                     background: $drumPadBackground;
                     margin: 10px 0;
@@ -61,14 +61,14 @@ body {
                     font-weight: 900;
 
                     &:hover {
-                        border: 2px solid black;
+                        border: 2px solid #FFFF00;
                     }
                 }
 
                 .active {
                     background: $drumPadActive;
-                    border: 2px solid black;
-                    color: white;
+                    border: 2px solid #000;
+                    color: #fff;
                 }
             }
         }
