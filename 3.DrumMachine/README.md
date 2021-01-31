@@ -4,4 +4,4 @@
 - Drum Machine: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine)
 
 ## Screen
-![drum.png]
+![](drum.png)
