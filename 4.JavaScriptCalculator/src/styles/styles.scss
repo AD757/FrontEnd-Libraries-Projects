@@ -1,0 +1,97 @@
+$bodyBackground: white;
+$calculatorBorderColor: grey;
+$calculatorBackground: black;
+$formulaColor: yellow;
+$outputColor: white;
+$buttonBackground: #282828;
+$outlineColor: red;
+$clearButtonBackground: red;
+$equalsButtonBackground: orange;
+$operatorButtonBackground: grey;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    background: $bodyBackground;
+
+    #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .calculator {
+            background: $calculatorBackground;
+            padding: 5px;
+            width: 310px;
+
+            .formula,
+            .output {
+                font-family: 'Poppins', sans-serif;
+                text-align: right;
+            }
+
+            .formula {
+                min-height: 20px;
+                font-size: 20px;
+                line-height: 20px;
+                color: $formulaColor;
+                vertical-align: text-top;
+                overflow-wrap: break-word;
+            }
+
+            .output {
+                font-size: 30px;
+                color: $outputColor;
+                line-height: 35px;
+            }
+
+            .buttons {
+                button {
+                    height: 65px;
+                    width: 75px;
+                    color: white;
+                    background: $buttonBackground;
+                    outline: 3px solid black;
+                    border: none;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+
+                .clear-button,
+                .zero-button {
+                    width: 150px;
+                }
+
+                .clear-button {
+                    background: $clearButtonBackground;
+                }
+
+                .operator-button {
+                    background: $operatorButtonBackground;
+                }
+
+                .equals-button {
+                    background: $equalsButtonBackground;
+                    height: 130px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
