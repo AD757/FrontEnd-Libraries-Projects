@@ -1,13 +1,13 @@
-$bodyBackground: white;
-$calculatorBorderColor: grey;
-$calculatorBackground: black;
-$formulaColor: yellow;
-$outputColor: white;
+$bodyBackground: #fff;
+$calculatorBorderColor: #A9A9A9;
+$calculatorBackground: #000;
+$formulaColor: #fff;
+$outputColor: #fff;
 $buttonBackground: #282828;
-$outlineColor: red;
-$clearButtonBackground: red;
-$equalsButtonBackground: orange;
-$operatorButtonBackground: grey;
+$outlineColor: #B22222;
+$clearButtonBackground: #B22222;
+$equalsButtonBackground: #FF8C00;
+$operatorButtonBackground: #A9A9A9;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
@@ -62,14 +62,14 @@ body {
                 button {
                     height: 65px;
                     width: 75px;
-                    color: white;
+                    color: #fff;
                     background: $buttonBackground;
-                    outline: 3px solid black;
+                    outline: 3px solid #000;
                     border: none;
                     font-size: 20px;
 
                     &:hover {
-                        color: black;
+                        color: #000;
                     }
                 }
 
