@@ -13,7 +13,7 @@ Projects completed
 
 - Drum Machine: [Live Preview](http://drummachine-ad.surge.sh/) | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine)
 
-- JavaScript Calculator: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator)
+- JavaScript Calculator: [Live Preview](ad-jscalculator.surge.sh) | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator)
 
 - 25 + 5 Clock: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock)
 
