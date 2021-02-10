@@ -1,5 +1,5 @@
-$bodyBackground: #F8F2E7;
-$timerBackground: #E5B672;
+$bodyBackground: #ECECF8;
+$timerBackground: #C0C8DC;
 
 html {
     box-sizing: border-box;
@@ -14,6 +14,8 @@ html {
 body {
     margin: 0;
     text-align: center;
+    color: #282828;
+    font-family: 'Courier New', Courier, monospace;
 
     #root {
         display: flex;
@@ -27,6 +29,7 @@ body {
             justify-content: center;
             align-items: center;
             width: 600px;
+           
 
             .settings {
                 display: flex;
@@ -85,7 +88,7 @@ body {
                 width: 310px;
                 height: 200px;
                 margin-top: 20px;
-                border: 3px solid black;
+                border: 2px solid grey;
                 border-radius: 40px;
                 background: $timerBackground;
 
@@ -95,9 +98,8 @@ body {
                 }
 
                 #time-left {
-                    font-size: 50px;
-                    font-weight: 900;
-                    text-decoration: underline;
+                    font-size: 40px;
+                    font-weight: 700;
                 }
 
                 #reset,
@@ -108,7 +110,7 @@ body {
                     cursor: pointer;
 
                     &:hover {
-                        color: white;
+                        color: #fff;
                     }
                 }
             }
