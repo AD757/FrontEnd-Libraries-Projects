@@ -43,8 +43,8 @@ body {
                 #break-label,
                 #session-label {
                     font-weight: 900;
-                    font-size: 26px;
-                    padding: 5px;
+                    font-size: 24px;
+                    padding: 10px;
                 }
 
                 .controller {
@@ -63,7 +63,7 @@ body {
 
                 #break-length,
                 #session-length {
-                    font-size: 22px;
+                    font-size: 24px;
                     font-weight: bold;
                 }
 
@@ -93,12 +93,12 @@ body {
                 background: $timerBackground;
 
                 #timer-label {
-                    font-size: 30px;
+                    font-size: 24px;
                     font-weight: bold;
                 }
 
                 #time-left {
-                    font-size: 40px;
+                    font-size: 35px;
                     font-weight: 700;
                 }
 
