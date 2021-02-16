@@ -15,7 +15,7 @@ Projects completed
 
 - JavaScript Calculator: [Live Preview](ad-jscalculator.surge.sh) | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator)
 
-- 25 + 5 Clock: [Live Preview]() | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock)
+- 25 + 5 Clock: [Live Preview](http://25clock.surge.sh/) | [Requirements](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock)
 
 ## Tech Stack
 - React
