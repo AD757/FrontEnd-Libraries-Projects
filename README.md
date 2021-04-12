@@ -23,7 +23,6 @@ Projects completed
 
 ## Certification
 ![](cert.jpg)
-[Cert](https://www.freecodecamp.org/certification/alladin/front-end-libraries) 
 
 
 ### Author
